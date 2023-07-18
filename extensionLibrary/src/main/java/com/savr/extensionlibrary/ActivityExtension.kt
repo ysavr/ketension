@@ -22,5 +22,5 @@ fun Activity.setStatusBarColor(color:Int){
 }
 
 fun Activity.toast(message: String, isLong: Boolean = false) {
-
+    this.createToast(message, isLong)
 }
