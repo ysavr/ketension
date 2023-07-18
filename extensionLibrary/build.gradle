@@ -6,11 +6,11 @@ plugins {
 
 android {
     namespace 'com.savr.extensionlibrary'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         minSdk 24
-        targetSdk 33
+        targetSdk 34
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -45,7 +45,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.ysavr'
                 artifactId = 'ketension'
-                version '0.0.8'
+                version '0.0.9'
             }
         }
     }
