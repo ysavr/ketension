@@ -45,7 +45,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.ysavr'
                 artifactId = 'ketension'
-                version '0.0.3'
+                version '0.0.6'
             }
         }
     }
