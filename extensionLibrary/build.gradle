@@ -33,6 +33,7 @@ android {
     dependencies {
         implementation 'androidx.core:core-ktx:1.10.1'
         implementation 'androidx.appcompat:appcompat:1.6.1'
+        implementation 'androidx.recyclerview:recyclerview:1.3.0'
     }
 }
 
@@ -43,7 +44,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.ysavr'
                 artifactId = 'ketension'
-                version '0.0.10'
+                version '0.0.11'
             }
         }
     }
